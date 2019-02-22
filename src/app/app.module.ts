@@ -7,6 +7,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LugarPage } from '../pages/lugar/lugar';
+import { PerfilPage } from '../pages/perfil/perfil';
+import { TabsPage } from '../pages/tabs/tabs';
 
 //recordar que siempre se tiene que importar las paginas
 
@@ -14,7 +16,9 @@ import { LugarPage } from '../pages/lugar/lugar';
   declarations: [
     MyApp,
     HomePage,
-    LugarPage  //Agregamos las paginas para que las reconozca y el nombre lo extraemos en este ejemplo de lugar.ts
+    LugarPage, //Agregamos las paginas para que las reconozca y el nombre lo extraemos en este ejemplo de lugar.ts
+    PerfilPage,
+    TabsPage
   ],
   imports: [
     BrowserModule,
@@ -24,7 +28,9 @@ import { LugarPage } from '../pages/lugar/lugar';
   entryComponents: [
     MyApp,
     HomePage,
-    LugarPage //carga pa la pagina desde inicio para dar prioridad
+    LugarPage, //carga pa la pagina desde inicio para dar prioridad
+    PerfilPage,
+    TabsPage
   ],
   providers: [
     StatusBar,

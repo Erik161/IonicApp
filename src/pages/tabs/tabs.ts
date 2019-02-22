@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../home/home';
+import { PerfilPage } from '../perfil/perfil';
 
 /**
  * Generated class for the TabsPage page.
@@ -14,6 +16,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'tabs.html',
 })
 export class TabsPage {
+  //funcion que va tener cada tab y a que pagina se va a dirigir
+  tab1Root=HomePage;
+  tab2Root=PerfilPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
