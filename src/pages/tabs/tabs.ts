@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the LugarPage page.
+ * Generated class for the TabsPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,17 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-lugar',
-  templateUrl: 'lugar.html',
+  selector: 'page-tabs',
+  templateUrl: 'tabs.html',
 })
-export class LugarPage { //Este nombre es que utilizamos para agregarlo a App.module.ts
+export class TabsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LugarPage');
+    console.log('ionViewDidLoad TabsPage');
   }
-
 
 }

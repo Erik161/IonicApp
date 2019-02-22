@@ -8,11 +8,13 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LugarPage } from '../pages/lugar/lugar';
 
+//recordar que siempre se tiene que importar las paginas
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    LugarPage
+    LugarPage  //Agregamos las paginas para que las reconozca y el nombre lo extraemos en este ejemplo de lugar.ts
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,7 @@ import { LugarPage } from '../pages/lugar/lugar';
   entryComponents: [
     MyApp,
     HomePage,
-    LugarPage
+    LugarPage //carga pa la pagina desde inicio para dar prioridad
   ],
   providers: [
     StatusBar,

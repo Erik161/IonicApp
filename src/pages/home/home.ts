@@ -9,9 +9,9 @@ import { LugarPage } from '../lugar/lugar';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-
   }
 
+// metodo mandar a llamar a paginas y recordar ver el import arriba siempre
   NavegarALugar() {
     this.navCtrl.push(LugarPage);
   }
