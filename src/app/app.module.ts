@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { LugarPage } from '../pages/lugar/lugar';
 import { PerfilPage } from '../pages/perfil/perfil';
 import { TabsPage } from '../pages/tabs/tabs';
+import { AboutPage } from '../pages/about/about';
 
 //recordar que siempre se tiene que importar las paginas
 
@@ -18,7 +19,8 @@ import { TabsPage } from '../pages/tabs/tabs';
     HomePage,
     LugarPage, //Agregamos las paginas para que las reconozca y el nombre lo extraemos en este ejemplo de lugar.ts
     PerfilPage,
-    TabsPage
+    TabsPage,
+    AboutPage
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { TabsPage } from '../pages/tabs/tabs';
     HomePage,
     LugarPage, //carga pa la pagina desde inicio para dar prioridad
     PerfilPage,
-    TabsPage
+    TabsPage,
+    AboutPage
   ],
   providers: [
     StatusBar,

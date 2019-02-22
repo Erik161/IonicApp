@@ -12,7 +12,7 @@ export class HomePage {
   }
 
 // metodo mandar a llamar a paginas y recordar ver el import arriba siempre
-  NavegarALugar() {
+  NavegarALugar(name) {
     this.navCtrl.push(LugarPage);
   }
 
